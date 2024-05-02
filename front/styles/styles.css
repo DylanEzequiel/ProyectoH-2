@@ -1,0 +1,75 @@
+#body{
+    background-image: url(https://e0.pxfuel.com/wallpapers/559/84/desktop-wallpaper-movie-theater-background-movie-cinema.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    background-color: rgb(255, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.308) 0%,rgba(27, 24, 24, 0.979) 100%);
+ }
+ header{
+    display: flex;
+    align-items: center;      
+    background-color: #555;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+ }
+ #icon{
+    height: 50px;
+    width: auto;
+ }
+ul{
+ display: flex;
+}
+
+a{
+    color: #fff;
+}
+
+li{
+    margin: 2px 10px;
+    color: #fff;
+}
+label{
+    color: #fff;
+}
+
+.color{
+    color: #fff;
+}
+.card{
+    transition: .5s background-color ease;
+    max-width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card:hover{
+    background-color: #555;
+}
+
+.card-img-top{
+    height: 250px;
+    width: auto;
+    margin: auto;
+}
+
+#tituloProy{
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 5px;
+    text-align:left;
+}
+p{
+    margin: 0;
+}
+#piso{
+    width: 100%;
+    background-color: rgb(172, 39, 50);
+}
