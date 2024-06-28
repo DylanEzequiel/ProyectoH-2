@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles/reset.css">
+    <link rel="stylesheet" href="../../styles/styles.css">
     <link rel="stylesheet" href="yo.css">
     <title>Quien soy?</title>
 </head>
 
-    <header class="navbar ">
+    <!-- <header class="navbar">
         <div class="icon nav-item" id="iconCont">
-          <a href="#"><img class="mh-25 mw-25 img" id="icon" src="../../assets/camera.png" alt="icon"></a>
+          <a href="#"><img class="mw-25 mh-25 img" id="icon" src="../../assets/camera.png" alt="icon"></a>
         </div>
         <nav >
          <ul class="nav">
@@ -20,13 +22,26 @@
             <li><a href="../formMovies/createMovie.html">Agregar Film</a></li>
         </ul>
         </nav>
+      </header> -->
+      <header id="header">
+        <div class="icon">
+          <a href="#"><img src="../../assets/camera.png" alt="icon"></a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="../../index.html">Proyect Films</a></li>
+            <li><a href="#">Sobre Mi</a></li>
+            <li><a href="../spiderman/Aboutme.html">Miles Morales</a></li>
+            <li><a href="../formMovies/createMovie.html">Agregar Film</a></li>
+          </ul>
+        </nav>
+      
       </header>
 
+      <article class="d-flex justify-content-center m-a container-fluid row">
 
-      <article class="row container-fluid m-a d-flex justify-content-center">
 
-
-        <div class="card m-2" style="width: 18rem;">
+        <div class="m-2 card" style="width: 18rem;">
             <img src="../../assets/yo.jpg" class="card-img-top mt-2" alt="foto retrato">
             <div class="card-body">
               <h5 class="card-title">¿Quien soy?</h5>
@@ -41,9 +56,9 @@
           </div>
 
 
-          <div class="card m-2 " style="width: 18rem;">
+          <div class="m-2 card" style="width: 18rem;">
             <img src="../../assets/asa.jpg" class="card-img-top mt-2" alt="foto retrato">
-            <div class="card-body row center">
+            <div class="card-body center row">
               <h5 class="card-title">...</h5>
               <p class="card-text">Creo que podria ser definido por mis miedos, ¿Qué mejor manera de conocer algo segun lo qué no es?, ¿No?</p>
             </div>
@@ -56,9 +71,9 @@
           </div>
 
           
-          <div class="card m-2" style="width: 18rem;">
+          <div class="m-2 card" style="width: 18rem;">
             <img src="../../assets/sususu.jpg" class="card-img-top mt-2" alt="foto retrato">
-            <div class="card-body row center">
+            <div class="card-body center row">
               <h5 class="card-title">Al final del dia</h5>
               <p class="card-text">Soy solo un chico mas del monton, uno al que le gusta reir con amigos, que tiene aspiraciones y sueña con destacar en las cosas que le gustan. pero asi sera? no lo se. espero que sí</p>
             </div>
@@ -84,18 +99,18 @@
             </div>
             
             
-            <div class="form-group ">
+            <div class="form-group">
                 <label for="desc" class="form-label"> Describelo:</label>
-                    <textarea name="desc" id="desc" placeholder="Es alguien muy ...." class="form-control " id="textDesc"></textarea>
+                    <textarea name="desc" id="desc" placeholder="Es alguien muy ...." class="form-control" id="textDesc"></textarea>
             </div>
             
             
-            <input type="submit" id="submitBtn" value="Enviar" class="btn btn-secondary mt-2">
+            <input type="submit" id="submitBtn" value="Enviar" class="mt-2 btn btn-secondary">
         
           </form>
       
       </aside>
-      <aside id="contCards" class="row container-fluid m-a p-3 d-flex justify-content-center">
+      <aside id="contCards" class="d-flex justify-content-center m-a p-3 container-fluid row">
 
       </aside>
       

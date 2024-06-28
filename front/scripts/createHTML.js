@@ -12,14 +12,14 @@ function createHTML(obj){
         <div class="card-body">
           <h5 class="card-title"><a>${title}</a></h5>
           <b>director: ${director} <hr>
-             año: ${year}  <hr>
-             duracion: ${duration} <hr>
-             genero/s: ${genre} <hr>
-             calificación: ${rate}</b>
+             year: ${year}  <hr>
+             duration: ${duration} <hr>
+             genre/s: ${genre} <hr>
+             calification: ${rate}</b>
         </div>`
 
         //doy clase al contenedor
-        cont.className="card m-3"
+        cont.className="card m-3 cardFilm"
         //inserto el contenedor al contenedor general 
         general?.appendChild(cont)
 }

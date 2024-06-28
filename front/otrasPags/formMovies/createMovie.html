@@ -25,59 +25,55 @@
     </nav>
   
   </header>
-      <article>
-        <h1 class="m-2 color">    
-            Agregar Peliculas
-        </h1>
-        <p class="m-2 color lead">
-          En este formulario podras agregar tus Peliculas favoritas! intentalo
-        </p>
-        <form id="form">
+      <article class="bg-white m-auto p-4 border rounded" style="width:45rem ;">
+        <div class="card-body">
+          <h1 class="text-black">    
+              Add Films
+          </h1>
+          <p class="font-weight-bold text-muted lead">
+            you can add your favorites films with this form! Try it!
+          </p>
+        </div>
+        <form id="form" class="card-body">
           
           <div class="m-3 mb-3 form-group">
-            <label for="title" class="form-label">Titulo:
+            <label for="title" class="form-label">Title:</label>
               <input type="text" class="form-control" id="title">
-            </label>
           </div>
             
           <div class="m-3 mb-3 form-group">
-              <label for="year" class="form-label">Year:
+              <label for="year" class="form-label">Year:</label>
                 <input type="number" class="form-control" id="year">
-              </label>
           </div>
             
           <div class="m-3 mb-3 form-group">
-            <label for="director" class="form-label">Director:
+            <label for="director" class="form-label">Director:</label>  
               <input type="text" class="form-control" id="director">
-            </label>  
           </div>
 
           <div class="m-3 mb-3 form-group">
-            <label for="duration" class="form-label">Duration:
+            <label for="duration" class="form-label">Duration:</label>
               <input type="string" class="form-control" id="duration">
-            </label>
           </div>
 
           <div class="m-3 mb-3 form-group">
-            <label for="genre" class="form-label">Genre:
+            <label for="genre" class="form-label">Genre:</label>
               <input type="text" class="form-control" id="genre">
-            </label>
           </div>
 
           <div class="m-3 mb-3 form-group">
-            <label for="rate" class="form-label">Rate:
+            <label for="rate" class="form-label">Rate:</label>
               <input type="number" class="form-control" id="rate">
-            </label>
           </div>
 
           <div class="m-3 mb-3 form-group">
-            <label for="poster" class="form-label">Poster:
+            <label for="poster" class="form-label">Poster:</label>
                 <input type="url" class="form-control" id="poster">
-            </label>
           </div>
-
-          <button id="submit" type="submit" class="btn btn-primary">Submit</button>
-          <button id="cleaner" type="button" class="btn btn-danger">Clean</button>
+          <div class="d-flex card-body">
+            <button id="submit" type="submit" class="m-auto mt-2 w-75 btn btn-success" style=" font-size: x-large;">Submit</button>
+            <button id="cleaner" type="button" class="m-auto mt-2 btn btn-danger" style=" font-size: x-large;">Clean</button>
+          </div>
         </form>
 
       </article>

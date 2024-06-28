@@ -36,11 +36,12 @@ a{
 }
 
 .card{
-    max-width: auto;
+    max-width: 50vw;
     background-color: #729;
 }
 .pie{
     width: 40%;
+    margin: auto;
 }
 p{
     margin: 0;
