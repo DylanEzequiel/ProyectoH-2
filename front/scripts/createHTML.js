@@ -19,7 +19,7 @@ function createHTML(obj){
         </div>`
 
         //doy clase al contenedor
-        cont.className="card m-3 cardFilm"
+        cont.className="card m-3 cardFilm "
         //inserto el contenedor al contenedor general 
         general?.appendChild(cont)
 }

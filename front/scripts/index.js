@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     getFilms();
     const submit = document.getElementById("submit")
     submit?.addEventListener("click",(event)=>{
-    console.log("click");    
+    console.log("submit");    
     event.preventDefault();
     createMovie();
 })
@@ -38,7 +38,7 @@ const cleaner = document.getElementById("cleaner")
 
 const form = document.getElementById("form")
 cleaner?.addEventListener("click",(event)=>{
-    console.log("click");
+    console.log("clean");
     event.preventDefault()
     form.reset()}
 );
